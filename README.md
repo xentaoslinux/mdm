@@ -4,7 +4,7 @@
 > Paket ini difork dari Upstream Xenta OS:  
 > https://github.com/linuxmint/mdm  
 
-**MDM - MDM DISPLAY MANAGER**
+**MDM - MDM Display Manager**
 
 MDM Display Manager (MDM) adalah manajer tampilan itu  
 menerapkan semua fitur penting yang diperlukan untuk pengelolaan  
