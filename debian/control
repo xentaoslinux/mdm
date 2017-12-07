@@ -1,0 +1,76 @@
+Source: mdm
+Section: gnome
+Priority: optional
+Maintainer: Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
+#Original-Maintainer: Clement Lefebvre <root@linuxmint.com>
+Build-Depends: libpam0g-dev (>= 0.99.7.1),
+               libdbus-glib-1-dev (>= 0.78),
+               libglib2.0-dev (>= 2.37.3),
+               libgdk-pixbuf2.0-dev (>= 2.22.0),
+               libgtk2.0-dev (>= 2.24.0),
+               libpango1.0-dev (>= 1.14.0),
+               libglade2-dev (>= 1:1.99.2),
+               libgnomecanvas2-dev (>= 2.11.1),
+               librsvg2-dev (>= 2.14.4),
+               libxml2-dev (>= 2.7.4),
+               libart-2.0-dev (>= 2.3.17),
+               libwrap0-dev,
+               debhelper (>= 5),
+               gettext,
+               intltool (>= 0.35.0),
+               libselinux1-dev [linux-any],
+               libattr1-dev,
+               x11proto-core-dev,
+               x11proto-input-dev,
+               libxau-dev,
+               libxt-dev,
+               libxdmcp-dev,
+               libxinerama-dev,
+               libdmx-dev,
+               sharutils,
+               gnome-pkg-tools,
+               quilt,
+               zenity,
+               libpopt-dev,
+               xserver-xorg,
+               libwebkitgtk-dev (>= 1.3.10),
+               gnome-common,
+               yelp-tools,
+               libxml2-utils,
+               dh-systemd (>= 1.5)
+Standards-Version: 3.9.7
+
+Package: mdm
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         adduser,
+         libpam-modules (>= 0.99.7.1),
+         libpam-runtime (>= 0.99.7.1),
+         cinnamon-session | gnome-session | x-session-manager | x-window-manager | x-terminal-emulator,
+         gksu (>= 1.0.7),
+         lsb-base (>= 3.2-14),
+         librsvg2-common,
+         gir1.2-webkit-3.0,
+         gir1.2-gtk-3.0,
+         python,
+         mdm-themes
+Recommends: whiptail | dialog,
+            zenity,
+            xserver-xorg
+Suggests: locales,
+          pm-utils,
+          libpam-gnome-keyring
+Provides: x-display-manager
+Conflicts: fast-user-switch-applet (<< 2.17.4),
+           gnome-session (<< 2.19.2),
+           gnome-panel (<< 2.19.2),
+           gnome-screensaver (<< 2.17.7),
+           gdm,
+           gdm3
+Description: Paket Base Xenta OS MDM Display Manager.
+ MDM adalah singkatan dari MDM Display Manager (bukan Display Manager Mint dan bukan Display Manager MATE) :)
+ .
+ Ini menyediakan sistem Anda dengan layar login yang bagus yang mudah digunakan, untuk dikonfigurasi dan dituju.
+ .
+ MDM Versi Xenta OS Dibuat dan Disesuaikan untuk Base Xenta OS.
