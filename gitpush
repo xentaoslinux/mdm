@@ -13,10 +13,10 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>
 
 package=mdm
-version="mdm (2.0.20)"
+version="mdm (2.0.21)"
 figlet $package
 echo " Set Remote... "
-git remote set-url origin git@github.com:xentaos/$package.git
+git remote set-url origin git@github.com:xentaoslinux/$package.git
 echo " Pull Request Github... "
 git pull
 echo " Git Add Local... "
