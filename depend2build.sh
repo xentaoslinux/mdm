@@ -12,7 +12,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>
 
-package=paketku
+package=depend
 
 figlet $package
 
@@ -21,5 +21,5 @@ echo " Memasang Paket $package Dependency Debian Build *.deb... "
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install libc6-dev libc-dev g++
-sudo apt-get install debhelper devscripts build-essential git libpam0g-dev libdbus-glib-1-dev libglib2.0-dev libgdk-pixbuf2.0-dev libgtk2.0-dev libpango1.0-dev   libglade2-dev libgnomecanvas2-dev   librsvg2-dev  libxml2-dev libart-2.0-dev   libwrap0-dev intltool libselinux1-dev libattr1-dev x11proto-core-dev x11proto-input-dev libxau-dev libxt-dev libxdmcp-dev libxinerama-devlibdmx-dev sharutils gnome-pkg tools quilt libpopt-dev libwebkitgtk-dev gnome-common yelp-tools libxml2-utils dh-systemd
+sudo apt-get install debhelper devscripts build-essential git libpam0g-dev libdbus-glib-1-dev libglib2.0-dev libgdk-pixbuf2.0-dev libgtk2.0-dev libpango1.0-dev   libglade2-dev libgnomecanvas2-dev   librsvg2-dev  libxml2-dev libart-2.0-dev   libwrap0-dev intltool libselinux1-dev libattr1-dev x11proto-core-dev x11proto-input-dev libxau-dev libxt-dev libxdmcp-dev libxinerama-dev libdmx-dev sharutils gnome-pkg-tools quilt libpopt-dev libwebkitgtk-dev gnome-common yelp-tools libxml2-utils dh-systemd
 
