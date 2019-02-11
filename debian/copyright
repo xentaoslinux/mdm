@@ -1,7 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: mdm
-Upstream-Contact: Dindin Hernawan <root@dev.xentaos.org>
-Source: https://github.com/xentaos/mdm
+Upstream-Contact: Dindin Hernawan <dindin_hernawan@yahoo.com>
+Source: https://github.com/xentaoslinux/mdm
 
 Files: *
 Copyright: 1998, 1999 Martin Kasper Petersen

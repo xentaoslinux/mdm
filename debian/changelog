@@ -1,3 +1,11 @@
+mdm (2.0.21) batik; urgency=medium
+
+  * Memperbaharui
+    berkas debian/*
+    Faces Default menjadi Hero "Batik" gui/faces
+
+ -- Dindin Hernawan (Xenta OS) <dindin_hernawan@yahoo.com>  Mon, 11 Feb 2019 10:57:14 +0700
+
 mdm (2.0.20) arok; urgency=medium
 
   * Memperbaharui
