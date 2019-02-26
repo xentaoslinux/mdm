@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Mon, 11 Feb 2019 10:57:14 +0700
+Source: mdm
+Binary: mdm
+Architecture: source i386
+Version: 2.0.21
+Distribution: batik
+Urgency: medium
+Maintainer: Dindin Hernawan (Xenta OS) <dindin_hernawan@yahoo.com>
+Changed-By: Dindin Hernawan (Xenta OS) <dindin_hernawan@yahoo.com>
+Description:
+ mdm        - Paket Base Xenta OS MDM Display Manager.
+Changes:
+ mdm (2.0.21) batik; urgency=medium
+ .
+   * Memperbaharui
+     berkas debian/*
+     Faces Default menjadi Hero "Batik" gui/faces
+Checksums-Sha1:
+ 90333383e9f8fa1154ada978ad8857f811beb5a2 1182 mdm_2.0.21.dsc
+ 8195f49effa5d349d92c8a7ddbaae2f2b9ceafe4 2243624 mdm_2.0.21.tar.xz
+ 19ee74b08a4b3660efd94559b455b3d1d222c2a0 1965016 mdm_2.0.21_i386.deb
+Checksums-Sha256:
+ 3fb39d370f0c8e7f600aad8e068f3af91b4db112ca0edff687090a3b6d41c468 1182 mdm_2.0.21.dsc
+ e77f3e147786274fce7f9e6ab525e849294db797304b5e9e881915c20f14fb8b 2243624 mdm_2.0.21.tar.xz
+ c7d6d34c03a05fbcfe871bfcb97fef224a8c1000ffca22c4db9c406aa77c79d1 1965016 mdm_2.0.21_i386.deb
+Files:
+ 84e7b0405b28f502a7db87b1351b360f 1182 gnome optional mdm_2.0.21.dsc
+ 7b108a4d64226b768ad61cc624e9dc7a 2243624 gnome optional mdm_2.0.21.tar.xz
+ 23d252f9f7a5ccf123e888af1ff15596 1965016 gnome optional mdm_2.0.21_i386.deb
